@@ -24,3 +24,11 @@ var georgie =
            
         };
 
+function pig(name, age, image, price) {
+    this.name = name;
+    this.age = age;
+    this.image = image;
+    this.price = price;
+};
+
+console.log(pig);
