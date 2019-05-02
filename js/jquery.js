@@ -3,7 +3,7 @@ var peppa1 =
         {
             name:'Peppa Pig',
             age:'4',
-            image:'images/peppa.jpg',
+            image:'images/peppapig.png',
             price:15,
             total: function() {
                return this.price * 0.09;
@@ -48,7 +48,7 @@ function Pig(name, age, image, price) {
 };
 
 // 3 Pig objects 
-var pep1 = new Pig('Peppa Pig', 4, 'images/peppa.jpg', 15);
+var pep1 = new Pig('Peppa Pig', 4, 'images/peppapig.png', 15);
 var pep2 = new Pig('Pappa Pig', 5, 'images/pappapig.jpg', 7);
 var pep3 = new Pig('Georgie', 3, 'images/georgie.jpg', 5);
 
@@ -65,6 +65,7 @@ for(var i =0; i < pepArray.length; i++) {
     var newP = document.createElement('p');
     var newSpan = document.createElement('span');
     
+    newDiv.className = 'border';
     console.log(newDiv, newImg, newH1, newH2, newP, newSpan);
     
     
